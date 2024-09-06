@@ -58,13 +58,7 @@ class ConfigAnalytics extends LitElement {
         </div>
       </ha-card>
       <div class="footer">
-        <a
-          .href=${documentationUrl(this.hass, "/integrations/analytics/")}
-          target="_blank"
-          rel="noreferrer"
-        >
-          ${this.hass.localize("ui.panel.config.analytics.learn_more")}
-        </a>
+      
       </div>
     `;
   }
