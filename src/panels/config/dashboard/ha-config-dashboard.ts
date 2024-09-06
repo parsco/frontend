@@ -63,31 +63,11 @@ const randomTip = (hass: HomeAssistant, narrow: boolean) => {
           rel="noreferrer"
           >${hass.localize("ui.panel.config.tips.join_forums")}</a
         >`,
-        twitter: html`<a
-          href=${documentationUrl(hass, `/twitter`)}
-          target="_blank"
-          rel="noreferrer"
-          >${hass.localize("ui.panel.config.tips.join_x")}</a
-        >`,
-        discord: html`<a
-          href=${documentationUrl(hass, `/join-chat`)}
-          target="_blank"
-          rel="noreferrer"
-          >${hass.localize("ui.panel.config.tips.join_chat")}</a
-        >`,
-        blog: html`<a
-          href=${documentationUrl(hass, `/blog`)}
-          target="_blank"
-          rel="noreferrer"
-          >${hass.localize("ui.panel.config.tips.join_blog")}</a
-        >`,
+        twitter: html``,
+        discord: html``,
+        blog: html``,
         newsletter: html`<span class="keep-together"
-          ><a
-            href="https://newsletter.openhomefoundation.org/"
-            target="_blank"
-            rel="noreferrer"
-            >${hass.localize("ui.panel.config.tips.join_newsletter")}</a
-          >
+
         </span>`,
       }),
       weight: 2,
