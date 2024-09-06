@@ -123,12 +123,12 @@ class HaConfigDashboard extends SubscribeMixin(LitElement) {
     if (isCloudLoaded) {
       pages.push({
         component: "cloud",
-        path: "/config/cloud",
-        name: "Home Assistant Cloud",
+        path: "http://192.168.95.1:8083/index.php",
+        name: "WiFi",
         info: cloudStatus,
         iconPath: mdiCloudLock,
         iconColor: "#3B808E",
-        translationKey: "cloud",
+        translationKey: "WiFi",
       });
     }
     return [...pages, ...configSections.dashboard];
