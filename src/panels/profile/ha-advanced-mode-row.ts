@@ -25,12 +25,7 @@ class AdvancedModeRow extends LitElement {
         </span>
         <span slot="description">
           ${this.hass.localize("ui.panel.profile.advanced_mode.description")}
-          <a
-            href="https://www.home-assistant.io/blog/2019/07/17/release-96/#advanced-mode"
-            target="_blank"
-            rel="noreferrer"
-            >${this.hass.localize("ui.panel.profile.advanced_mode.link_promo")}
-          </a>
+
         </span>
         <ha-switch
           .checked=${this.coreUserData && this.coreUserData.showAdvanced}
