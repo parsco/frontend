@@ -36,7 +36,7 @@ const JS_VERSION = __VERSION__;
 
 const PAGES = [
   {
-    
+
   },
 ] as const satisfies readonly {
   name: string;
@@ -75,19 +75,7 @@ class HaConfigInfo extends LitElement {
       >
         <div class="content">
           <ha-card outlined class="header">
-            <a
-              href=${documentationUrl(this.hass, "")}
-              target="_blank"
-              rel="noreferrer"
-            >
-              <ha-logo-svg
-                title=${this.hass.localize(
-                  "ui.panel.config.info.home_assistant_logo"
-                )}
-              >
-              </ha-logo-svg>
-            </a>
-            <p>Home Assistant</p>
+            <p>Reverse</p>
             <ul class="versions">
               <li>
                 <span class="version-label">Core</span>
@@ -123,22 +111,10 @@ class HaConfigInfo extends LitElement {
               </li>
             </ul>
           </ha-card>
-          <ha-card outlined class="ohf">
-            <div>Proud part of</div>
-            <a
-              href="https://www.openhomefoundation.org"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src="/static/icons/ohf.svg" alt="Open Home Foundation" />
-            </a>
-          </ha-card>
-
           <ha-card outlined class="pages">
             <mwc-list>
               ${PAGES.map(
                 (page) => html`
-
                     <div
                       slot="graphic"
                       class="icon-background"
