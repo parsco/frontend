@@ -390,30 +390,8 @@ class HaConfigIntegrationPage extends SubscribeMixin(LitElement) {
                     </a>`
                   : ""}
                 ${this._manifest
-                  ? html`<a
-                      href=${this._manifest.is_built_in
-                        ? documentationUrl(
-                            this.hass,
-                            `/integrations/${this._manifest.domain}`
-                          )
-                        : this._manifest.documentation}
-                      rel="noreferrer"
-                      target="_blank"
-                    >
-                      <ha-list-item graphic="icon" hasMeta>
-                        ${this.hass.localize(
-                          "ui.panel.config.integrations.config_entry.documentation"
-                        )}
-                        <ha-svg-icon
-                          slot="graphic"
-                          .path=${mdiBookshelf}
-                        ></ha-svg-icon>
-                        <ha-svg-icon
-                          slot="meta"
-                          .path=${mdiOpenInNew}
-                        ></ha-svg-icon>
-                      </ha-list-item>
-                    </a>`
+                  ? html`
+                  `
                   : ""}
                 ${this._manifest &&
                 (this._manifest.is_built_in || this._manifest.issue_tracker)
