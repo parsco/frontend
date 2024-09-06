@@ -96,17 +96,7 @@ export class EnergyGridSettings extends LitElement {
         <div class="card-content">
           <p>
             ${this.hass.localize("ui.panel.config.energy.grid.sub")}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href=${documentationUrl(
-                this.hass,
-                "/docs/energy/electricity-grid/"
-              )}
-              >${this.hass.localize(
-                "ui.panel.config.energy.grid.learn_more"
-              )}</a
-            >
+   
           </p>
           ${gridValidation
             ? html`
