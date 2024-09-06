@@ -69,14 +69,6 @@ export class EnergySolarSettings extends LitElement {
         <div class="card-content">
           <p>
             ${this.hass.localize("ui.panel.config.energy.solar.sub")}
-            <a
-              target="_blank"
-              rel="noopener noreferrer"
-              href=${documentationUrl(this.hass, "/docs/energy/solar-panels/")}
-              >${this.hass.localize(
-                "ui.panel.config.energy.solar.learn_more"
-              )}</a
-            >
           </p>
           ${solarValidation.map(
             (result) => html`
