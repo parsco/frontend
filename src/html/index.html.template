@@ -74,7 +74,7 @@
       </svg>
       <div id="ha-launch-screen-info-box" class="ha-launch-screen-spacer-bottom"></div>
       <div class="ohf-logo">
-        <img src="/static/images/ohf-badge.svg" alt="a project by the Hoverco.ir" height="46">
+        
       </div>
     </div>
     <home-assistant></home-assistant>
