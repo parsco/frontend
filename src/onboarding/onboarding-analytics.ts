@@ -28,16 +28,7 @@ class OnboardingAnalytics extends LitElement {
     return html`
       <h1>${this.localize("ui.panel.page-onboarding.analytics.header")}</h1>
       <p>${this.localize("ui.panel.page-onboarding.analytics.intro")}</p>
-      <p>
-        <a
-          .href=${documentationUrl(this.hass, "/integrations/analytics/")}
-          target="_blank"
-          rel="noreferrer"
-        >
-          ${this.localize("ui.panel.page-onboarding.analytics.learn_more")}
-          <ha-svg-icon .path=${mdiOpenInNew}></ha-svg-icon>
-        </a>
-      </p>
+   
       <ha-analytics
         translation_key_panel="page-onboarding"
         @analytics-preferences-changed=${this._preferencesChanged}
