@@ -192,19 +192,6 @@ class DialogPersonDetail extends LitElement {
                   <ul>
                     <li>
                       <a
-                        href=${documentationUrl(
-                          this.hass,
-                          "/integrations/#presence-detection"
-                        )}
-                        target="_blank"
-                        rel="noreferrer"
-                        >${this.hass!.localize(
-                          "ui.panel.config.person.detail.link_presence_detection_integrations"
-                        )}</a
-                      >
-                    </li>
-                    <li>
-                      <a
                         @click=${this._closeDialog}
                         href="/config/integrations"
                       >
