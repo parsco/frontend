@@ -36,46 +36,7 @@ const JS_VERSION = __VERSION__;
 
 const PAGES = [
   {
-    name: "change_log",
-    path: "/latest-release-notes/",
-    iconPath: mdiNewspaperVariant,
-    iconColor: "#4A5963",
-  },
-  {
-    name: "thanks",
-    path: "/developers/credits/",
-    iconPath: mdiHandsPray,
-    iconColor: "#3B808E",
-  },
-  {
-    name: "merch",
-    path: "/merch",
-    iconPath: mdiTshirtCrew,
-    iconColor: "#C65326",
-  },
-  {
-    name: "feature",
-    path: "/feature-requests",
-    iconPath: mdiHomeAssistant,
-    iconColor: "#0D47A1",
-  },
-  {
-    name: "bug",
-    path: "/issues",
-    iconPath: mdiBug,
-    iconColor: "#F1C447",
-  },
-  {
-    name: "help",
-    path: "/community",
-    iconPath: mdiHelp,
-    iconColor: "#B1345C",
-  },
-  {
-    name: "license",
-    path: "/developers/license/",
-    iconPath: mdiFileDocument,
-    iconColor: "#518C43",
+    
   },
 ] as const satisfies readonly {
   name: string;
