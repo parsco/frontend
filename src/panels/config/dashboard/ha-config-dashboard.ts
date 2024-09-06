@@ -126,8 +126,8 @@ class HaConfigDashboard extends SubscribeMixin(LitElement) {
         path: ":8083/index.php",
         name: "WiFi",
         info: cloudStatus,
-        iconPath: mdiCloudLock,
-        iconColor: "#3B808E",
+        iconPath: mdiWifi,
+        iconColor: "#DC0000",
         translationKey: "WiFi",
       });
     }
