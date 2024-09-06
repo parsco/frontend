@@ -56,16 +56,7 @@ export class HaPickThemeRow extends LitElement {
           ${!hasThemes
             ? this.hass.localize("ui.panel.profile.themes.error_no_theme")
             : ""}
-          <a
-            href=${documentationUrl(
-              this.hass,
-              "/integrations/frontend/#defining-themes"
-            )}
-            target="_blank"
-            rel="noreferrer"
-          >
-            ${this.hass.localize("ui.panel.profile.themes.link_promo")}
-          </a>
+        
         </span>
         <ha-select
           .label=${this.hass.localize("ui.panel.profile.themes.dropdown_label")}
