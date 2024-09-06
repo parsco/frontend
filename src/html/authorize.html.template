@@ -46,7 +46,7 @@
   <body>
     <div class="content">
       <div class="header">
-        <img src="/static/icons/favicon-192x192.png" alt="Home Assistant" />
+        <h2 style="color:blue;"><a href="https://reverseco.net">Reverse</a></h2>
       </div>
       <ha-authorize></ha-authorize>
     </div>
