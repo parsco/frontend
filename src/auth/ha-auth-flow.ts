@@ -218,9 +218,7 @@ export class HaAuthFlow extends LitElement {
       case "form":
         return html`
           <h1>
-            ${!["select_mfa_module", "mfa"].includes(step.step_id)
-              ? this.localize("ui.panel.page-authorize.welcome_home")
-              : this.localize("ui.panel.page-authorize.just_checking")}
+
           </h1>
           ${this._computeStepDescription(step)}
           <ha-auth-form
