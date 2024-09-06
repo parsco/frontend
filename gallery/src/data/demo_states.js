@@ -34,7 +34,7 @@ export default {
     entity_id: "persistent_notification.notification",
     state: "notifying",
     attributes: {
-      title: "Welcome Home!",
+      title: "Reverse",
       message:
         "Here are some resources to get started:\n\n - [Configuring Home Assistant](https://home-assistant.io/getting-started/configuration/)\n - [Available integrations](https://home-assistant.io/integrations/)\n - [Troubleshooting your configuration](https://home-assistant.io/docs/configuration/troubleshooting/)\n - [Getting help](https://home-assistant.io/help/)\n\nTo not see this card popup in the future, edit your config in\n`configuration.yaml` and disable the `introduction` integration.",
     },
