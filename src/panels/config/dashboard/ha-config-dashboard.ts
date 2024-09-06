@@ -58,7 +58,7 @@ const randomTip = (hass: HomeAssistant, narrow: boolean) => {
     {
       content: hass.localize("ui.panel.config.tips.join", {
         forums: html`<a
-          href="https://community.home-assistant.io"
+          href="#"
           target="_blank"
           rel="noreferrer"
           >${hass.localize("ui.panel.config.tips.join_forums")}</a
