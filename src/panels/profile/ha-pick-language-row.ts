@@ -18,12 +18,7 @@ export class HaPickLanguageRow extends LitElement {
           >${this.hass.localize("ui.panel.profile.language.header")}</span
         >
         <span slot="description">
-          <a
-            href="https://developers.home-assistant.io/docs/translations/"
-            target="_blank"
-            rel="noreferrer"
-            >${this.hass.localize("ui.panel.profile.language.link_promo")}</a
-          >
+      
         </span>
         <ha-language-picker
           .hass=${this.hass}
