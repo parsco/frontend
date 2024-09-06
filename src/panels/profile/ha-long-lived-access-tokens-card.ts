@@ -45,15 +45,7 @@ class HaLongLivedTokens extends LitElement {
             "ui.panel.profile.long_lived_access_tokens.description"
           )}
 
-          <a
-            href="https://developers.home-assistant.io/docs/auth_api/#making-authenticated-requests"
-            target="_blank"
-            rel="noreferrer"
-          >
-            ${this.hass.localize(
-              "ui.panel.profile.long_lived_access_tokens.learn_auth_requests"
-            )}
-          </a>
+    
           ${!accessTokens?.length
             ? html`<p>
                 ${this.hass.localize(
