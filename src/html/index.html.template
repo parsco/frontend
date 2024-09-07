@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Reverse</title>
+    <title>ReverseCo</title>
     <%= renderTemplate("_header.html.template") %>
     <link rel="mask-icon" href="/static/icons/mask-icon.svg" color="#18bcf2" />
     <link
