@@ -71,15 +71,14 @@ class HaConfigInfo extends LitElement {
         .hass=${this.hass}
         .narrow=${this.narrow}
         back-path="/config"
-        .header=${this.hass.localize("ui.panel.config.info.caption")}
+        
       >
         <div class="content">
           <ha-card outlined class="header">
-            <p>Reverse</p>
+            <p>Wireless Manager</p>
             <ul class="versions">
               <li>
-                <span class="version-label">Core</span>
-                <span class="version">${hass.connection.haVersion}</span>
+                <p><a href="http://192.168.95.1:8083/index.php" target="_blank" rel="noopener noreferrer">WiFi Setting</a></p>
               </li>
               ${this._hassioInfo
                 ? html`
@@ -112,7 +111,7 @@ class HaConfigInfo extends LitElement {
             </ul>
           </ha-card>
           <ha-card outlined class="pages">
-          <p><a href="http://192.168.95.1:8083/" target="_blank" rel="noopener noreferrer">WiFi Setting</a></p>
+          
             <mwc-list>
               ${PAGES.map(
                 (page) => html`
