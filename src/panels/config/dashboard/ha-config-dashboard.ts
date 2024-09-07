@@ -126,7 +126,6 @@ class HaConfigDashboard extends SubscribeMixin(LitElement) {
         component: "cloud",
         path: "/config/info",
         name: "WiFi",
-        info: cloudStatus,
         iconPath: mdiWifi,
         iconColor: "#DC0000",
         translationKey: "WiFi",
