@@ -112,7 +112,7 @@ class HaConfigInfo extends LitElement {
             </ul>
           </ha-card>
           <ha-card outlined class="pages">
-          <p><a href="http://192.168.95.1:8083/">WiFi Setting</a></p>
+          <p><a href="http://192.168.95.1:8083/" target="_blank" rel="noopener noreferrer">WiFi Setting</a></p>
             <mwc-list>
               ${PAGES.map(
                 (page) => html`
