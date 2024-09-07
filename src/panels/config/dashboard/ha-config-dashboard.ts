@@ -5,6 +5,7 @@ import {
   mdiMagnify,
   mdiPower,
   mdiRefresh,
+  mdiWifi,
 } from "@mdi/js";
 import type { UnsubscribeFunc } from "home-assistant-js-websocket";
 import {
@@ -123,6 +124,7 @@ class HaConfigDashboard extends SubscribeMixin(LitElement) {
     if (isCloudLoaded) {
       pages.push({
         component: "cloud",
+        path: ":8083/index.php",
         name: "WiFi",
         info: cloudStatus,
         iconPath: mdiWifi,
