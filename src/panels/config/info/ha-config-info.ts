@@ -78,7 +78,7 @@ class HaConfigInfo extends LitElement {
             <p>Wireless Manager</p>
             <ul class="versions">
               <li>
-                <p><a href="http://192.168.95.1:8083/index.php" target="_blank" rel="noopener noreferrer">WiFi Setting</a></p>
+                <p><a href="http://192.168.95.1:8083/index.php" target="_blank" rel="noopener noreferrer"> WiFi Setting</a></p>
               </li>
               ${this._hassioInfo
                 ? html`
