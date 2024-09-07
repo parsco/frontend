@@ -347,16 +347,7 @@ export const configSections: { [name: string]: PageNavigation[] } = {
       component: ["hassio", "hardware"],
     },
   ],
-  about: [
-    {
-      component: "info",
-      path: "/config/info",
-      translationKey: "ui.panel.config.info.caption",
-      iconPath: mdiInformation,
-      iconColor: "#4A5963",
-      core: true,
-    },
-  ],
+
 };
 
 @customElement("ha-panel-config")
