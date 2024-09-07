@@ -123,7 +123,6 @@ class HaConfigDashboard extends SubscribeMixin(LitElement) {
     if (isCloudLoaded) {
       pages.push({
         component: "cloud",
-        path: ":8083/index.php",
         name: "WiFi",
         info: cloudStatus,
         iconPath: mdiWifi,
