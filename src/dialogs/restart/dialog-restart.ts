@@ -84,7 +84,7 @@ class DialogRestart extends LitElement {
         .heading=${!this._loadingHostInfo
           ? createCloseHeading(
               this.hass,
-              this.hass.localize("ui.dialogs.restart.heading")
+              
             )
           : undefined}
       >
@@ -130,13 +130,9 @@ class DialogRestart extends LitElement {
                     <ha-svg-icon .path=${mdiRefresh}></ha-svg-icon>
                   </div>
                   <span>
-                    ${this.hass.localize("ui.dialogs.restart.restart.title")}
+                    <p>Restart</p>
                   </span>
-                  <span slot="secondary">
-                    ${this.hass.localize(
-                      "ui.dialogs.restart.restart.description"
-                    )}
-                  </span>
+
                 </ha-list-item>
               </mwc-list>
               <ha-expansion-panel
@@ -198,22 +194,6 @@ class DialogRestart extends LitElement {
                     hasMeta
                     @request-selected=${this._restartSafeMode}
                   >
-                    <div
-                      slot="graphic"
-                      class="icon-background restart-safe-mode"
-                    >
-                      <ha-svg-icon .path=${mdiLifebuoy}></ha-svg-icon>
-                    </div>
-                    <span>
-                      ${this.hass.localize(
-                        "ui.dialogs.restart.restart-safe-mode.title"
-                      )}
-                    </span>
-                    <span slot="secondary">
-                      ${this.hass.localize(
-                        "ui.dialogs.restart.restart-safe-mode.description"
-                      )}
-                    </span>
                   </ha-list-item>
                 </mwc-list>
               </ha-expansion-panel>
