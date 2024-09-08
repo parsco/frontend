@@ -1869,11 +1869,11 @@
         "dashboard": {
           "devices": {
             "main": "Devices & services",
-            "secondary": "Integrations, devices, entities, and helpers"
+            "secondary": ""
           },
           "automations": {
             "main": "Automations & scenes",
-            "secondary": "Automations, scenes, scripts, and blueprints"
+            "secondary": ""
           },
           "backup": {
             "main": "Backup",
@@ -1885,7 +1885,7 @@
           },
           "dashboards": {
             "main": "Dashboards",
-            "secondary": "Organize how you interact with your home"
+            "secondary": ""
           },
           "voice_assistants": {
             "main": "Voice assistants",
@@ -1897,15 +1897,15 @@
           },
           "tags": {
             "main": "Tags",
-            "secondary": "Set up NFC tags and QR codes"
+            "secondary": ""
           },
           "people": {
             "main": "People",
-            "secondary": "Manage who can access your home"
+            "secondary": ""
           },
           "areas": {
             "main": "Areas, labels & zones",
-            "secondary": "Manage locations in and around your house"
+            "secondary": ""
           },
           "companion": {
             "main": "Companion app",
@@ -1913,7 +1913,7 @@
           },
           "system": {
             "main": "System",
-            "secondary": "Create backups, check logs or reboot your system"
+            "secondary": ""
           },
           "about": {
             "main": "About",
