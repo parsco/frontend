@@ -124,13 +124,6 @@ export const configSections: { [name: string]: PageNavigation[] } = {
       iconColor: "#301ABE",
       core: true,
     },
-    {
-      path: "/config/info",
-      translationKey: "about",
-      iconPath: mdiInformationOutline,
-      iconColor: "#4A5963",
-      core: true,
-    },
   ],
   backup: [
     {
