@@ -192,12 +192,7 @@ class HaConfigDashboard extends SubscribeMixin(LitElement) {
             <ha-svg-icon slot="graphic" .path=${mdiRefresh}></ha-svg-icon>
           </ha-list-item>
 
-          <ha-list-item graphic="icon">
-            ${this.hass.localize(
-              "ui.panel.config.system_dashboard.restart_homeassistant"
-            )}
-            <ha-svg-icon slot="graphic" .path=${mdiPower}></ha-svg-icon>
-          </ha-list-item>
+        
         </ha-button-menu>
 
         <ha-config-section
