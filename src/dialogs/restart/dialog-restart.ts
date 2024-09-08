@@ -233,7 +233,7 @@ class DialogRestart extends LitElement {
 
   private async _showRestartDialog() {
     const confirmed = await showConfirmationDialog(this, {
-      title: this.hass.localize("ui.dialogs.restart.restart.confirm_title"),
+      
       text: this.hass.localize(
         "ui.dialogs.restart.restart.confirm_description"
       ),
@@ -269,7 +269,7 @@ class DialogRestart extends LitElement {
   private async _showRestartSafeModeDialog() {
     const confirmed = await showConfirmationDialog(this, {
       title: this.hass.localize(
-        "ui.dialogs.restart.restart-safe-mode.confirm_title"
+        
       ),
       text: this.hass.localize(
         "ui.dialogs.restart.restart-safe-mode.confirm_description"
@@ -305,7 +305,7 @@ class DialogRestart extends LitElement {
       return;
     }
     const confirmed = await showConfirmationDialog(this, {
-      title: this.hass.localize("ui.dialogs.restart.reboot.confirm_title"),
+      
       text: this.hass.localize("ui.dialogs.restart.reboot.confirm_description"),
       confirmText: this.hass.localize(
         "ui.dialogs.restart.reboot.confirm_action"
