@@ -100,9 +100,6 @@ class HaConfigInfo extends LitElement {
                 : nothing}
               <li>
                 <span class="version-label">
-                  ${this.hass.localize(
-                    "ui.panel.config.info.frontend_version_label"
-                  )}
                 </span>
                 <span class="version">
                   ${JS_VERSION}${JS_TYPE !== "modern" ? ` ⸱ ${JS_TYPE}` : ""}
